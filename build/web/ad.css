@@ -1,0 +1,110 @@
+body {
+    background-image: url(img/shelf.jpg);
+    background-size: 1999px;
+    background-repeat:no-repeat;
+    
+       
+    
+}
+.side-bar {
+    background:rgba(0,0,0,0.4);
+    position:fixed;
+    color:white;
+    width:12%;
+    height: 100vh;
+    margin-left: -5px;
+    border-radius: 15px;
+    text-align:center;
+    padding-top: 20px;
+    
+    
+}
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    height:10vh;
+    background: rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    display : block;
+    z-index: 100;
+}
+.progress {
+    margin-top:40px;
+    margin-left:40px;
+}
+h3:hover {
+    
+ background-color: whitesmoke;
+ color:black;
+ border-radius: 15px;
+ height:20px;
+ padding:20px;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.active {
+ background-color: whitesmoke;
+ color:black;
+ border-radius: 15px;
+ height:20px;
+ padding:20px;   
+}
+.English {
+    margin-top:-20px;
+    margin-left :580px;
+    color:white;
+    font-weight: bold;
+    
+}
+.Math {
+    margin-top:-20px;
+    margin-left :1080px;
+    color:white;
+    font-weight: bold;
+}
+.Comp {
+    margin-top:-20px;
+    margin-left :1580px;
+    color:white;
+    font-weight: bold;
+}
+.percent {
+    position: fixed;
+    font-size:40px;
+    margin-top:-85px;
+    margin-left :580px;
+}
+.percent2 {
+    position: fixed; 
+    font-size:40px;
+    margin-top:-85px;
+    margin-left :1080px;
+}
+.percent3 {
+    position: fixed; 
+    font-size:40px;
+    margin-top:-85px;
+    margin-left :1580px;
+}
+.pro {
+    position: fixed;
+    top: 61px;
+    margin-left:440px;
+    overflow: scroll;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    width: 990px;
+    height: 70vh;
+    padding: 35px;
+    border-radius: 15px;
+    display : block;
+    z-index: 100;
+}
+th {
+    font-size:24px;
+}

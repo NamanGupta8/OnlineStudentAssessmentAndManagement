@@ -1,0 +1,179 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  position: relative;
+  margin:0;
+  padding:0;
+
+}
+#myVideo {
+
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  opacity: 0.9;
+
+}
+
+
+.content {
+ z-index: 100;
+ position:fixed;
+ bottom: 815px;
+ background:  rgba(0,0,0,0.6);
+ min-width: 100%;
+ 
+
+ padding: 15px;
+ 
+
+ background-attachment: fixed;
+}
+.content1 {
+ overflow: hidden;
+ align-self: center;
+ position:absolute;
+ top: 825px;
+ background-image: url('img/brick.jpg');
+ color: #FFFFFF;
+ min-width: 100%;
+ height: auto;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ background-attachment: fixed;
+
+}
+
+
+.x {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ color:white; 
+
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 25px;
+ text-decoration: none;
+}
+
+
+li a:hover {
+ background-color: whitesmoke;
+ color:black;
+ border-radius: 15px;
+
+}
+.topnav-right {
+ float:right;
+ color:white;
+  padding:20px;
+ padding-bottom: 0;
+ padding-top: 10px;
+}
+.center {
+ display: block;
+ margin-left: 40%;
+ margin-right: auto;
+ margin-top: 20%;
+ width: 120%;
+}
+.edu {
+  margin-left:100px;
+  margin-top:22px;
+  font-weight: bold;
+  color:white;
+  
+}
+.slider{
+  postion:absolute;
+  float:left;
+  list-style-type: none;
+  display: block;
+  margin-left:37px;
+  margin-top:40px;
+  z-index: -1;
+  background-attachment: fixed;
+  
+  }
+
+.slider1{
+  list-style-type: none;
+  background-attachment: fixed;
+}
+img::title {
+  width: 300px;
+}
+.z:hover{
+  width: 400px;
+  content: "Learn";
+
+
+}
+.contentx {
+    border-radius: 15px;
+    position: fixed;
+    top: 225px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    height:50%;
+    padding: 20px;
+    margin-left: 435px;
+    margin-right: auto;
+}
+.contexty {
+    
+    border-radius: 15px;
+    position: fixed;
+    top: 225px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    height:60%;
+    padding-top: 30px;
+    padding-left:80px;
+    padding-bottom: 20px;
+    margin-left: 435px;
+    margin-right: auto;
+    
+}
+::placeholder {
+    text-align: center;
+}
+.contextz {
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    height:50%;
+    padding: 20px;
+    margin-left: 435px;
+    margin-right: auto;
+}
+::placeholder {
+    color:white;
+    font-weight:bold;
+    opacity:1;
+}
+input { 
+    border:none;background:transparent;color:white;border-bottom: 1px solid black;font-weight:bold;
+    
+}

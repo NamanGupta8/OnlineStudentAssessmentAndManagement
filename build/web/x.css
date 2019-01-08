@@ -1,0 +1,197 @@
+body {
+  position: relative;
+  margin:0;
+  padding:0;
+  overflow-x: hidden
+}
+.content {
+ z-index: 100;
+ position:fixed;
+ bottom: 815px;
+ background: rgba(0,0,0,0.5);
+ background-attachment:fixed;
+ min-width: 100%;
+ animation: fadeIn 3s;
+ padding: 15px;
+ margin-top:25px;
+ 
+ background-attachment: fixed;
+}
+.x {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ color:white;
+ 
+
+
+}
+.topnav-right {
+ float:right;
+ color:white;
+ padding:20px;
+ padding-bottom: 0;
+ padding-top: 10px;
+}
+.edu {
+  margin-left:100px;
+  margin-top:22px;
+  font-weight: bold;
+  color:black;
+  
+}
+
+.center {
+ display: block;
+ margin-left: 40%;
+ margin-right: auto;
+ margin-top: 20%;
+ width: 120%;
+}
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 25px;
+ 
+ 
+ text-decoration: none;
+}
+
+
+li a:hover {
+ background-color: whitesmoke;
+ color:black;
+ border-radius: 15px;
+
+}
+.topnav-right {
+ float:right;
+}
+#box1{
+  height:100vh;
+  width:100%;
+  /*background-image: url(type.gif);*/
+  
+  background-size: cover;
+  background-attachment: fixed;
+}
+#box2 {
+  height:100vh;
+  width:100%;
+  color:white;
+  background-image: url(img/Graduated.jpg);
+  
+  background-size: cover;
+  background-attachment: fixed;
+}
+#box3 {
+  height:100vh;
+  width:100%;
+  background-image: url(img/abstract.jpg);
+  
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+}
+#box4 {
+  height:100vh;
+  width:100%;
+  background-image: url(img/asphalt.jpg) ;
+  opacity:1;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.h {
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    bottom:0;
+    margin: 0;
+    
+}
+p { 
+    margin-bottom: 5em;
+}
+
+.button {
+background: rgba(0,0,0,0.3);
+color:white;
+width:150px;
+height:70px;
+border-radius: 15px;
+font-size: 18px;
+box-shadow:8px 8px 8px #000000;
+}
+.button:hover {
+    background: rgba(0,0,0,0.8);
+    color: white;
+}
+.buttonx {
+    background: rgba(0,0,0,0.8);
+    color:white;width:150px;
+    height:70px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow:8px 8px 8px #000000;
+    margin-right: 70px;
+}
+.buttonx:hover {
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+.white {
+    color:white;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+    padding-left:20px;
+    font-weight:bold;
+    text-align:center;
+    font-size:16px;
+}
+
+.edu {
+    color:white;
+}
+.gimp {
+    background-color:rgba(0,0,0,0.3);
+    width:450px;
+    height:550px;
+    margin-left: 250px;
+    margin-top:100px;
+    
+    border-radius:15px;
+    color:white;
+    padding:50px;
+    font-size:25px;
+    font-family:comic sans ms;
+    text-shadow:8px 8px 8px #000000;
+    font-weight:bold;
+    display: inline-block;   
+}
+.gimp2 {
+    background-color:rgba(0,0,0,0.3);
+    width:450px;
+    height:550px;
+    margin-left: 250px;
+    
+    border-radius:15px;
+    color:white;
+    padding:50px;
+    font-size:25px;
+    font-family:comic sans ms;
+    text-shadow:8px 8px 8px #000000;
+    font-weight:bold;
+    display: inline-block;
+    
+}
